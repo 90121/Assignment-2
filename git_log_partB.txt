@@ -1,0 +1,107 @@
+commit 660b8bef3bc41dd17dd8ff50b60205e14cdf5ee7
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 23:48:06 2016 -0700
+
+    Re-adding file2.txt
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..2ef3698
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++Jan 2017,Software Developer
+
+commit 9e9c332e6b059d1da00020261f94339964202657
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 23:41:16 2016 -0700
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index 46232ee..79e644d 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -3,3 +3,4 @@ Major  Software Engineering
+ Favourite reginal Movie:Jalsa
+ Internatinal Movie:Avengars
+ Favourite Resutarent:SubWay
++Favourate Color: white
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index 2ef3698..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Jan 2017,Software Developer
+
+commit b543e8356d5c1e7ebd5c7da949681ed484ad338c
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 23:29:13 2016 -0700
+
+    added expected graduation and first job title
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..2ef3698
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++Jan 2017,Software Developer
+
+commit 2dfff8c9da7ba5e7a321772a040840cfc84d379b
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 22:52:19 2016 -0700
+
+    Added favorite restaurant and movie
+
+diff --git a/file1.txt b/file1.txt
+index c783bb3..46232ee 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,3 +1,5 @@
+ Srihari Nadendla,
+ Major  Software Engineering
+-
++Favourite reginal Movie:Jalsa
++Internatinal Movie:Avengars
++Favourite Resutarent:SubWay
+
+commit 833e5cc0374bfa7ee0b97cd0749e57d3effe9b5a
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 22:47:47 2016 -0700
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index 37ab405..c783bb3 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,3 @@
+-Srihari Nadendla Id=90116
++Srihari Nadendla,
++Major  Software Engineering
++
+
+commit 008ca6cbb3d9509eb603b17eef00a89acf4b53c6
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 22:36:11 2016 -0700
+
+    change
+
+diff --git a/file1.txt b/file1.txt
+index e69de29..37ab405 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -0,0 +1 @@
++Srihari Nadendla Id=90116
+
+commit 11c7075a90b191cef24f1c6e326e71aee7d6d1b8
+Author: srinadendla <90116.nadendla@students.itu.edu>
+Date:   Mon Apr 18 22:20:52 2016 -0700
+
+    Commiting the new file to srihari
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..e69de29
