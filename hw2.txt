@@ -1,0 +1,5 @@
+git hub url https://github.com/srinadendla/Assignment-2
+
+to push the existing repository to github use the below commands
+$ git remote add origin https://github.com/srinadendla/Assignment-2.git
+$ git push -u origin master

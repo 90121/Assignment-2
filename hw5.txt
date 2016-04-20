@@ -1,0 +1,53 @@
+
+1.Create a new git repository somewhere in your filesystem, and configure a remote (called whatever you want, 
+A)i have created a new repositiory in as assignment2 in github in local i have created hw2 
+added the remote https://github.com/rpilla32/SWE-500-4 to my local using commands
+$git remote add pilla https://github.com/rpilla32/SWE-500-4
+$git remote show(will show the allias names of git remote )
+$git fetch show(it will show the fecth data )
+$git merge pilla/master(it will merger or fetch the data)
+
+2.)Instead of creating a new git repository and configuring it with this remote, I could have asked you to git clone the repo from afs. If you had done so, what would the output of git remote -v be?
+A)it will show the origin url fetch and push
+$ git remote -v
+origin  https://github.com/srinadendla/Assignment-2.git (fetch)
+origin  https://github.com/srinadendla/Assignment-2.git (push)
+
+3.)Did anything appear in your working directory? Why?
+A)Nothing new files are appeared Beacuse we are not fecthing from orgin we need to fetch it from master then only we can fecth the data.
+
+4)Update your local master branch with the remote one, and give the command you used to do so.
+$ git merge pilla/master
+Already up-to-date.
+
+5)Your working directory should have been updated. You should check that. That means the master branch was updated on the remote. But it's possible that when we ran git fetch, we fetched other branches as well! How could we (i.e. what command could we use) find all the branches we may have gotten from the remote?
+A)yes 
+$git fetch pilla
+$git merge pilla/master
+$git branch -r
+will show all remote branch with this command.
+
+6)What is a bare repository? What makes it different from normal repositories? In what situations is it used?
+A)bare repository is created with $git init --bare
+It Has no working directory, just the contents of what the .git folder would have had it is only used for push
+A .git subfolder with all the git related revision history of your repo
+A working tree, or checked out copies of your project files.
+
+7)In lecture, I was careful to explain the two-step procedure of using git fetch and git merge remotename/branchname to get commits from a remote. When would this be a good idea as opposed to simply doing git pull remotename branchname? Briefly discuss remote-tracking branches and their relevance in your answer
+A)Updates the remote-tracking branch (<remotename>/<branchname>)
+and uploads the necessary commits for that branch to origin
+You must be fully up-to-date with the remote in order to push!
+Otherwise your push will be rejected.
+
+8)I didn't ask you to do this, but suppose I asked you to make a commit on the 'other' branch. If I wanted you to push this branch, what command would you use?
+A)git push -u pilla master.
+or i would create a file 
+$echo "new file " > pi.txt
+$git add .
+$git commit -m "new"
+$git push
+by doing above commands we can push to git hub
+
+
+
+
