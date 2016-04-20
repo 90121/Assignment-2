@@ -1,4 +1,4 @@
-
+this is home work 5
 1.Create a new git repository somewhere in your filesystem, and configure a remote (called whatever you want, 
 A)i have created a new repositiory in as assignment2 in github in local i have created hw2 
 added the remote https://github.com/rpilla32/SWE-500-4 to my local using commands
