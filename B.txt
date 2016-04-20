@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Hi this is new  Bfile
+=======
+Hi this is new  Bfile
+bdxhjsdbvjkjbvkjcxvnbxk
+>>>>>>> githw6-stashing
